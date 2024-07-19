@@ -13,7 +13,13 @@
         android:theme="@style/Theme.MyApplication"
         tools:targetApi="31">
         <activity
-            android:name=".MainActivity"
+            android:name=".Bai02"
+            android:exported="false" />
+        <activity
+            android:name=".Bai01"
+            android:exported="false" />
+        <activity
+            android:name=".Bai03"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
